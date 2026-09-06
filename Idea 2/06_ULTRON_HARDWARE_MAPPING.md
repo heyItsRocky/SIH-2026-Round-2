@@ -43,6 +43,15 @@ Pi 4 (Gateway + Edge AI)
 
 ## 3. What We Add
 
+> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
+**For the hackathon (₹0):** The transducer layer is **software-simulated**. We use the existing mesh + real free signals:
+- **CPU temperature** on each Pi (`vcgencmd measure_temp`) = a REAL environmental temperature stream
+- **Tripwire GPIO** = real event trigger
+- **NeoPixel + OLED** = real alert rendering
+
+**Aspirational / production (future, if budget allows):**
+
 | Component | Purpose | Cost |
 |---|---|---|
 | Water level sensor (ultrasonic) | Flood detection | ~₹300-500 |

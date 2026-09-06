@@ -43,6 +43,15 @@ Pi 4 (Gateway + Edge AI)
 
 ## 3. What We Add
 
+> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
+**For the hackathon (₹0):** The transducer layer is **software-simulated**. We use the existing mesh + real free signals:
+- **Tripwire GPIO** (Pi 3A+ GPIO17 / Pi 3B+ GPIO21 → ESP32-WROOM) = real physical crack/event trigger
+- **CPU temperature** on each Pi = real telemetry stream
+- **NeoPixel + OLED** = real alert rendering
+
+**Aspirational / production (future, if budget allows):**
+
 | Component | Purpose | Cost |
 |---|---|---|
 | Tilt/inclination sensors (MPU6050/BNO055) | Ground tilt detection | ~₹150-300 |

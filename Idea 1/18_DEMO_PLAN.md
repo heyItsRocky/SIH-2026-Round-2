@@ -4,6 +4,22 @@
 
 ---
 
+## ⚠ ZERO-BUDGET DEMO (READ FIRST)
+
+> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
+**What the judge sees:**
+- **REAL** distributed mesh (Pi 3A+, Pi 3B+, Pi 4, ESP32s on the switch)
+- **REAL** MQTT pipeline + edge AI + mesh correlation + dashboard + alerting
+- **SIMULATED** transducer layer (tilt/vibration/displacement/crack) via the sensor simulator
+- **REAL** free signals: tripwire GPIO as a physical crack trigger, CPU temp as telemetry
+
+**Demo framing:** "We built the complete distributed subsidence-intelligence network for real. The transducer layer is simulated because we had no budget — but the mesh, edge AI, correlation, and alerting are fully functional and sensor-agnostic. Plug in any transducer and it works identically."
+
+The script below uses the simulator to trigger precise scenarios (single-node disturbance vs multi-node deformation) — reliable and repeatable on stage.
+
+---
+
 ## 1. Demo Script
 
 ```

@@ -4,7 +4,35 @@
 
 ---
 
-## 1. Bill of Materials
+## ⚠ ZERO-BUDGET MODE (READ FIRST)
+
+> **We have no budget to purchase sensors.** See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
+**Zero-budget BOM (what we actually build with):**
+
+| Item | Cost |
+|---|---|
+| Raspberry Pi 4B 8GB (gateway) | ₹0 (owned) |
+| Raspberry Pi 3A+ (node) | ₹0 (owned) |
+| Raspberry Pi 3B+ v1.2 (node) | ₹0 (owned) |
+| 2× ESP32-C3-DevKitM-1 | ₹0 (owned) |
+| 1× ESP32-WROOM-32 | ₹0 (owned) |
+| 5-port Ethernet switch | ₹0 (owned) |
+| 1" I2C OLED | ₹0 (owned) |
+| NeoPixel (C3 GPIO8) | ₹0 (owned) |
+| AC600 + TL-WN722N Wi-Fi | ₹0 (owned) |
+| 500GB SSD + 128GB flash | ₹0 (owned) |
+| 4-port USB hub | ₹0 (owned) |
+| Software sensor simulator | ₹0 (we build it) |
+| **Total new spend** | **₹0** |
+
+**Real free signals used:** CPU temperature on each Pi (real environmental temperature stream), tripwire GPIO (real event trigger).
+
+The BOM below (with purchased sensors) is the **aspirational production version** — NOT what we build for the hackathon.
+
+---
+
+## 1. Bill of Materials (Aspirational / Production — NOT for hackathon)
 
 | Component | Qty | Unit Cost | Total | Purpose | Availability | Alternative |
 |---|---|---|---|---|---|---|

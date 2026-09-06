@@ -4,6 +4,24 @@
 
 ---
 
+## ⚠ ZERO-BUDGET MODE (READ FIRST)
+
+> **We have no budget to purchase sensors.** See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md` for the full plan.
+
+**What this means for SIH26025:**
+- The **distributed mesh, MQTT pipeline, edge AI, correlation, dashboard, and alerting are all REAL** (built on existing Pis + ESP32s).
+- The **physical transducers (tilt/vibration/displacement/crack sensors) are SIMULATED** via a high-fidelity software sensor simulator.
+- We extract **real free signals** where they add credibility:
+  - **Tripwire GPIO** (Pi 3A+ GPIO17 / Pi 3B+ GPIO21 → ESP32-WROOM) = a real physical "crack/event" trigger
+  - **CPU temperature** on each Pi = a real continuous telemetry stream
+- The simulator emits MQTT in the exact same format as a real sensor node — it's a **drop-in replacement**. Plug in a real transducer later and nothing else changes.
+
+**Demo framing:** "We built the complete distributed subsidence-intelligence network for real. The transducer layer is simulated because we had no budget — but the mesh, edge AI, correlation, and alerting are fully functional and sensor-agnostic."
+
+---
+
+---
+
 ## 1. Sensor Candidates
 
 | Sensor | Measures | Accuracy | Cost | Interface | Why use? | Risks |

@@ -8,6 +8,8 @@
 
 **Idea 1 is finalized.** This is the primary submission for SIH 2026 Round 2.
 
+> ⚠ **ZERO-BUDGET MODE:** No budget for new sensors. The distributed mesh, edge AI, correlation, dashboard, and alerting are built for real on existing hardware; only the physical transducers are software-simulated. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
 ---
 
 ## Problem Statement

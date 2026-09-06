@@ -4,6 +4,22 @@
 
 ---
 
+## ⚠ ZERO-BUDGET DEMO (READ FIRST)
+
+> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+
+**What the judge sees:**
+- **REAL** distributed mesh (Pi 3A+, Pi 3B+, Pi 4, ESP32s on the switch)
+- **REAL** MQTT pipeline + edge AI + multi-sensor fusion + correlation + dashboard + alerting
+- **SIMULATED** transducer layer (smoke/temp/humidity/PM2.5/water level) via the sensor simulator
+- **REAL** free signals: CPU temperature on each Pi (real environmental temperature stream), tripwire GPIO
+
+**Demo framing:** "We built the complete distributed environmental-intelligence network for real. The transducer layer is simulated because we had no budget — but the mesh, edge AI, multi-sensor fusion, and alerting are fully functional and sensor-agnostic. Plug in any transducer and it works identically."
+
+The script below uses the simulator to trigger precise scenarios (single-node smoke vs multi-node fire signature) — reliable and repeatable on stage.
+
+---
+
 ## 1. Demo Script
 
 ```

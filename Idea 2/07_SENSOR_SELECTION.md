@@ -4,7 +4,23 @@
 
 ---
 
-## 1. Sensor Candidates
+## ⚠ ZERO-BUDGET MODE (READ FIRST)
+
+> **We have no budget to purchase sensors.** See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md` for the full plan.
+
+**What this means for SIH26178:**
+- The **distributed mesh, MQTT pipeline, edge AI, fusion, correlation, dashboard, and alerting are all REAL** (built on existing Pis + ESP32s).
+- The **physical transducers (smoke/temp/humidity/PM2.5/water level) are SIMULATED** via a high-fidelity software sensor simulator.
+- We extract **real free signals** where they add credibility:
+  - **CPU temperature** on each Pi (`vcgencmd measure_temp`) = a REAL continuous temperature stream — genuinely usable as an environmental "temperature" signal
+  - **Tripwire GPIO** = a real digital event trigger
+- The simulator emits MQTT in the exact same format as a real sensor node — it's a **drop-in replacement**. Plug in a real transducer later and nothing else changes.
+
+**Demo framing:** "We built the complete distributed environmental-intelligence network for real. The transducer layer is simulated because we had no budget — but the mesh, edge AI, multi-sensor fusion, and alerting are fully functional and sensor-agnostic."
+
+---
+
+## 1. Sensor Candidates (Aspirational / Production)
 
 | Sensor | Measures | Accuracy | Cost | Interface | Why use? | Risks |
 |---|---|---|---|---|---|---|
