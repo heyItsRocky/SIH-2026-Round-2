@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "ultron",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-c3-devkitm-1", "id": "c3", "top": 0, "left": 0, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled", "top": 0, "left": 220, "attrs": { "i2cAddress": "0x3C" } },
+    { "type": "wokwi-neopixel", "id": "neo", "top": 0, "left": 420, "attrs": { "pixels": "1" } }
+  ],
+  "connections": [
+    ["c3:GPIO5", "oled:SDA", "", []],
+    ["c3:GPIO6", "oled:SCL", "", []],
+    ["c3:3V3", "oled:VCC", "", []],
+    ["c3:GND", "oled:GND", "", []],
+    ["c3:GPIO8", "neo:DIN", "", []],
+    ["c3:3V3", "neo:VDD", "", []],
+    ["c3:GND", "neo:VSS", "", []]
+  ]
+}

@@ -146,7 +146,7 @@ Be upfront that this is a **prototype compression** — a decision-support early
 
 ## ⚠ ZERO-BUDGET DEMO (READ FIRST)
 
-> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `master files/ZERO_BUDGET_STRATEGY.md`.
 
 **What the judge sees:**
 - **REAL** distributed mesh (Pi 3A+, Pi 3B+, Pi 4, ESP32s on the switch)
@@ -291,7 +291,7 @@ Compare: commercial IoT environmental stations cost orders of magnitude more.
 
 ## ⚠ ZERO-BUDGET MODE (READ FIRST)
 
-> **We have no budget to purchase sensors.** See `SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`.
+> **We have no budget to purchase sensors.** See `master files/ZERO_BUDGET_STRATEGY.md`.
 
 **Zero-budget BOM (what we actually build with):**
 

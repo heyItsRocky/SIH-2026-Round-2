@@ -1,4 +1,4 @@
-# Top 10 Ideas Analysis
+# Top 13 Ideas Analysis
 
 > SIH 2026 Round 2 — Shortlisted Problem Statements
 
@@ -6,9 +6,9 @@
 
 ## 1. Overview
 
-This folder contains the analysis of the top 10 shortlisted SIH 2026 problem statements evaluated against our team's hardware capabilities (SENTINEL 2.0 / ULTRON cluster) and software expertise. Each problem statement is assessed for hardware compatibility, technical complexity, innovation potential, and SIH scoring potential.
+This folder contains the analysis of the top 13 shortlisted SIH 2026 problem statements evaluated against our team's hardware capabilities (SENTINEL 2.0 / ULTRON cluster) and software expertise. Each problem statement is assessed for hardware compatibility, technical complexity, innovation potential, and SIH scoring potential.
 
-The 10 problem statements were selected from the full pool of 226 based on:
+The 13 problem statements were selected from the full pool of 233 based on:
 - Direct compatibility with existing hardware (Raspberry Pi 4B, ESP32-C3, ESP32-WROOM, sensors)
 - Team expertise in cybersecurity, IoT, edge computing, and ML
 - Innovation potential and feasibility within the hackathon timeline
@@ -29,6 +29,9 @@ The 10 problem statements were selected from the full pool of 226 based on:
 | 8 | SIH26105 | Cyber Risk Quantification Platform (AICTE) | Quantify organizational cyber risk in real-time | Risk scoring, vulnerability assessment, investment optimization | Suricata + Azazel-Edge, risk engine from Sentinel | Needs enterprise network access, complex metrics | Medium | Medium |
 | 9 | SIH26039 | Underground Mine Safety (Jharkhand) | AI-powered mine safety monitoring and rescue system | Gas detection, personnel tracking, emergency alerts | Pi 4B + ESP32-C3 + MQTT, partial hardware match | Needs gas sensors (CH4, CO, O2), mining domain | Medium | Medium |
 | 10 | SIH26040 | Smart Water Purification (Jharkhand) | Water quality monitoring and purification control | pH, turbidity, TDS sensing, purification automation | Pi 4B + ESP32-C3 + OLED + MQTT, partial match | Needs water quality sensors, not in inventory | Low | Medium |
+| 11 | SIH26172 | Low Latency Voice Activator (ISRO) | Ultra-lightweight TinyML keyword spotting on ESP32, streams audio to cloud ASR on wake word | TFLite Micro KWS, custom keyword, Opus streaming, Vosk/Whisper ASR | ESP32s fit, TinyML mature, PS alignment 5/5 | Needs INMP441 mic, audio ML is new domain, crowded field | Medium | Medium |
+| 12 | SIH26025 | Mine Subsidence Monitoring & Early Warning (Ministry of Coal) | Wireless surface mesh sensor network + edge AI for subsidence early warning | ESP32 mesh, tilt/vibration/displacement, edge AI anomaly detection, GIS maps, SMS alerts | Strong hardware match, IoT expertise, clear innovation hook | Needs tilt/vibration sensors, mining domain | Medium | High |
+| 13 | SIH26232 | Low-Cost IoT Blockchain Nodes for Farm-to-Fork (MoFPI) | Rugged low-cost IoT node with tamper-evident local logging + opportunistic sync | Hash-chain tamper evidence, energy harvesting, offline logging, MQTT sync | Near-literal hardware match, fully buildable, no external data dependency | Blockchain framing saturated, needs sensors + enclosure | Medium | Medium |
 
 ---
 
@@ -131,6 +134,36 @@ The 10 problem statements were selected from the full pool of 226 based on:
 - **Advantages:** Pi 4B + ESP32-C3 + OLED + MQTT partial match, critical public health application, scalable to rural deployment.
 - **Disadvantages:** Needs water quality sensors (not in inventory), water treatment domain knowledge, purification hardware.
 - **Technical Complexity:** Low
+- **Innovation Potential:** Medium
+- **SIH Potential:** Medium
+
+### Idea 11 — Low Latency Voice Activator (SIH26172)
+
+- **Core Concept:** Ultra-lightweight TinyML keyword-spotting (KWS) model running continuously on an ESP32; on wake-word detection, streams subsequent audio to a remote ASR server with minimal latency.
+- **Key Features:** TFLite Micro KWS (<256KB RAM, <10% CPU idle), custom-trained keyword, Opus-compressed audio streaming, Vosk/Whisper ASR on Pi 4, NeoPixel/OLED status feedback.
+- **Advantages:** ESP32s fit the constraint profile, TinyML KWS is mature and well-documented, PS alignment 5/5, voice-biometric security angle differentiates from generic KWS.
+- **Disadvantages:** Needs INMP441 I2S mic (not in inventory), audio ML is a new domain vs. cyber/IoT strength, crowded field hard to differentiate.
+- **Technical Complexity:** Medium
+- **Innovation Potential:** Medium
+- **SIH Potential:** Medium
+
+### Idea 12 — Mine Subsidence Monitoring & Early Warning (SIH26025)
+
+- **Core Concept:** AI-enabled wireless surface mesh sensor network deployed above underground mine panels for real-time subsidence monitoring, prediction, and early warning.
+- **Key Features:** Distributed ESP32 mesh (tilt/vibration/displacement/crack), edge AI anomaly detection on Pi 4B, GIS deformation maps + risk zones, automated SMS/email/mobile alerts, offline capability.
+- **Advantages:** Strong hardware match (ESP32 + Pi 4 + MQTT), IoT/edge-AI expertise is core strength, wireless surface mesh is a clear innovation hook, directly answers the PS.
+- **Disadvantages:** Needs tilt/vibration/displacement sensors (not in inventory), mining domain knowledge required.
+- **Technical Complexity:** Medium
+- **Innovation Potential:** High
+- **SIH Potential:** High
+
+### Idea 13 — Low-Cost IoT Blockchain Nodes for Farm-to-Fork (SIH26232)
+
+- **Core Concept:** Low-power, rugged, tamper-proof IoT sensor node with local cryptographic storage, energy harvesting, and opportunistic sync to a decentralized ledger for farm-to-fork traceability.
+- **Key Features:** ESP32 node with temp/humidity/ethylene sensing, Merkle-style hash-chain tamper evidence, solar/thermal energy harvesting, offline logging, MQTT opportunistic sync, traceability UI.
+- **Advantages:** Near-literal hardware match, fully buildable with real hardware, no external data dependency, SME-focused affordability.
+- **Disadvantages:** "Blockchain" framing invites comparison to a saturated field (must fight the framing), needs sensors + rugged enclosure.
+- **Technical Complexity:** Medium
 - **Innovation Potential:** Medium
 - **SIH Potential:** Medium
 

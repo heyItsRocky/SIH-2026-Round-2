@@ -38,7 +38,7 @@ SIH-2026-Round-2/
 │   ├── 03_OPERATIONS_AND_DEMO.md      ← failure modes, testing, demo, cost, differentiation
 │   └── 04_PITCH_AND_QA.md             ← risk analysis + pitch framing + judge Q&A
 │
-├── SIH_2026/00_MASTER/                ← the decision layer
+├── master files/                       ← the decision layer
 │   ├── 01_SIH_Problem_Selection_Framework.md
 │   ├── 02_SIH_2026_Problem_Analysis.md
 │   ├── 03_TOP_2_COMPARISON.md
@@ -48,7 +48,7 @@ SIH-2026-Round-2/
 │   ├── TECH_STACK_COMPARISON.md
 │   └── ZERO_BUDGET_STRATEGY.md        ← ⚠ read this first (no budget for sensors)
 │
-├── Top 10 Ideas Analysis/              ← shortlist analysis (PS 01–13)
+├── Top 13 Ideas Analysis/              ← shortlist analysis (PS 01–13)
 │   └── README.md                       ← comparison table + selection criteria
 │
 ├── ULTRON/                             ← our hardware cluster
@@ -72,7 +72,7 @@ SIH-2026-Round-2/
 - **SIMULATED:** physical sensor transducers (tilt/smoke/PM2.5/etc.) via a high-fidelity software sensor simulator — a drop-in replacement, sensor-agnostic architecture
 - **FREE real signals:** CPU temperature on each Pi (`vcgencmd`), tripwire GPIO as a physical event trigger
 
-Full plan: [`SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`](./SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md)
+Full plan: [`master files/ZERO_BUDGET_STRATEGY.md`](./master%20files/ZERO_BUDGET_STRATEGY.md)
 
 ---
 
@@ -90,7 +90,7 @@ Full plan: [`SIH_2026/00_MASTER/ZERO_BUDGET_STRATEGY.md`](./SIH_2026/00_MASTER/Z
 | AC600 + TL-WN722N Wi-Fi | Wireless uplink |
 | 500GB SSD + 128GB flash | Storage |
 
-Full baseline: [`SIH_2026/00_MASTER/HARDWARE_CAPABILITY_BASELINE.md`](./SIH_2026/00_MASTER/HARDWARE_CAPABILITY_BASELINE.md)
+Full baseline: [`master files/HARDWARE_CAPABILITY_BASELINE.md`](./master%20files/HARDWARE_CAPABILITY_BASELINE.md)
 
 ---
 
