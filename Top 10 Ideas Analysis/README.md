@@ -165,3 +165,4 @@ Problems were ranked using these weighted criteria:
 | [PS 09.md](./PS%2009.md) | SIH26039 — Underground Mine Safety (Jharkhand) |
 | [PS 10.md](./PS%2010.md) | SIH26040 — Smart Water Purification (Jharkhand) |
 | [PS 11.md](./PS%2011.md) | SIH26172 — Low Latency Voice Activator for Edge Devices (ISRO) |
+| [PS 12.md](./PS%2012.md) | SIH26025 — Mine Subsidence Monitoring & Early Warning (Ministry of Coal) |
