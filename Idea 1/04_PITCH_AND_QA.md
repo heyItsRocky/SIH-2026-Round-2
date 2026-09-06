@@ -44,3 +44,5 @@
 ## 3. Key Framing
 
 > "We built a decision-support early-indicator layer, not a validated geoscience prediction model. That honesty reads as more credible under judge questioning than an overclaimed pitch."
+---
+

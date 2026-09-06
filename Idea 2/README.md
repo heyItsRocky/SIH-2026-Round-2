@@ -112,33 +112,14 @@ ESP32 Sensor Nodes (Distributed)          Pi 4B (Edge AI)              Cloud / D
 
 ## Detailed Documentation
 
-This folder contains the full engineering documentation for Idea 2 (SIH26178):
+This folder contains the full engineering documentation for Idea 2 (SIH26178) in 4 consolidated files:
 
 | # | File | Contents |
 |---|---|---|
-| 01 | `01_PROBLEM_DEFINITION.md` | Problem statement, users, scope, critical framing |
-| 02 | `02_REAL_WORLD_RESEARCH.md` | India's environmental risks, SACHET/CAP, NDMA/IMD/ISRO |
-| 03 | `03_EXISTING_SOLUTIONS.md` | Solution landscape, what remains unsolved |
-| 04 | `04_GAP_ANALYSIS.md` | The specific gap we solve |
-| 05 | `05_TECH_STACK.md` | Tech choices, difficulty, learning curve |
-| 06 | `06_ULTRON_HARDWARE_MAPPING.md` | Existing hardware → solution mapping |
-| 07 | `07_SENSOR_SELECTION.md` | Sensor candidates, selection criteria |
-| 08 | `08_CIRCUIT_DESIGN.md` | Pin mapping, power rails, GPIO |
-| 09 | `09_NODE_ARCHITECTURE.md` | What one environmental node looks like |
-| 10 | `10_NETWORK_COMMUNICATION.md` | Protocol, MQTT topics, offline behavior |
-| 11 | `11_DATA_PIPELINE.md` | Sensor reading → dashboard flow |
-| 12 | `12_AI_ML_STRATEGY.md` | Anomaly detection approach |
-| 13 | `13_DETECTION_AND_ALERT_LOGIC.md` | Anomaly score, confidence, alert levels |
-| 14 | `14_SYSTEM_ARCHITECTURE.md` | Master architecture diagram |
-| 15 | `15_FAILURE_MODES.md` | What can go wrong, graceful degradation |
-| 16 | `16_SECURITY_AND_RELIABILITY.md` | Auth, integrity, fail-safe |
-| 17 | `17_TESTING_AND_VALIDATION.md` | Test plan, metrics, validation |
-| 18 | `18_DEMO_PLAN.md` | Scripted live demonstration |
-| 19 | `19_DEPLOYMENT_AND_SCALABILITY.md` | Prototype → pilot → scale |
-| 20 | `20_COST_AND_BOM.md` | Bill of materials, cost comparison |
-| 21 | `21_DIFFERENTIATION_STRATEGY.md` | What others build, why we're better |
-| 22 | `22_RISK_ANALYSIS.md` | Risk register, Qualcomm platform expectation |
-| 23 | `23_PITCH_AND_JUDGE_QA.md` | Judge questions, potential attacks |
+| 01 | `01_PROBLEM_AND_RESEARCH.md` | Problem definition, real-world research, existing solutions, gap analysis |
+| 02 | `02_TECHNICAL_DESIGN.md` | Tech stack, hardware mapping, sensor selection, circuit design, node architecture, network, data pipeline, AI/ML strategy, detection/alert logic, system architecture |
+| 03 | `03_OPERATIONS_AND_DEMO.md` | Failure modes, security/reliability, testing/validation, demo plan, deployment/scalability, cost/BOM, differentiation |
+| 04 | `04_PITCH_AND_QA.md` | Risk analysis, pitch framing, judge Q&A, potential attacks |
 
 ---
 
