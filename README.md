@@ -1,20 +1,28 @@
-# SIH 2026 Round 2 — Workspace
+# SIH 2026 Round 2 — Team Workspace
 
-> Smart India Hackathon 2026 · Round 2 preparation workspace
+> Smart India Hackathon 2026 · Round 2 · Team workspace
 > **Idea deadline: 20 September 2026**
 
 ---
 
 ## What This Repo Is
 
-End-to-end preparation for SIH 2026 Round 2: from the full pool of 233 problem statements → shortlist of 13 → top 2 finalized ideas → complete engineering documentation for both, built on our existing **ULTRON hardware cluster** (Raspberry Pi + ESP32 mesh).
+This is the team's **central workspace and single source of truth** for both active projects — research, planning, architecture, technical decisions, documentation, hardware planning, development, testing, validation, and presentations.
 
-**Final decision:** two finalized submissions, both Hardware-category Disaster Management problems:
+We are currently in the **Planning + Deep Research phase**. We are NOT rushing into implementation — the immediate focus is understanding both problems deeply, researching the domains, exploring solution approaches, and defining realistic MVPs.
 
-| Rank | Idea | PS | Sponsor | Problem |
+**Start here:** [`00_CURRENT_STATUS.md`](./00_CURRENT_STATUS.md) — where the team is right now and what's next.
+
+---
+
+## Active Projects
+
+| # | Project | PS | Sponsor | Squad |
 |---|---|---|---|---|
-| 🥇 | [Idea 1](./Idea%201/README.md) | SIH26025 | Ministry of Coal / Coal India | AI-enabled real-time mine subsidence monitoring & early warning |
-| 🥈 | [Idea 2](./Idea%202/README.md) | SIH26178 | Qualcomm Inc | AI-powered environmental intelligence network |
+| 1 | [Mine Subsidence Monitoring](./01_IDEA_1_MINE_SUBSIDENCE/README.md) | SIH26025 | Ministry of Coal / Coal India | Squad 1 (3 members) |
+| 2 | [High-Altitude Anti-Drone System](./02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/README.md) | SIH26050 | DRDO | Squad 2 (3 members) |
+
+One team, two squads. Members may collaborate across projects when needed. See [`00_TEAM_WORKSPACE/TEAM_STRUCTURE.md`](./00_TEAM_WORKSPACE/TEAM_STRUCTURE.md).
 
 ---
 
@@ -22,44 +30,44 @@ End-to-end preparation for SIH 2026 Round 2: from the full pool of 233 problem s
 
 ```
 SIH-2026-Round-2/
+│
 ├── README.md                          ← you are here
+├── 00_CURRENT_STATUS.md               ← current phase, objectives, rules
 │
-├── Idea 1/                            ← FINALIZED · SIH26025 Mine Subsidence (primary)
-│   ├── README.md                      ← overview, problem, solution, status
-│   ├── 01_PROBLEM_AND_RESEARCH.md     ← problem def, research, existing solutions, gap
-│   ├── 02_TECHNICAL_DESIGN.md         ← stack, hardware, sensors, circuit, network, AI
-│   ├── 03_OPERATIONS_AND_DEMO.md      ← failure modes, testing, demo, cost, differentiation
-│   └── 04_PITCH_AND_QA.md             ← pitch framing + judge Q&A
+├── 00_TEAM_WORKSPACE/                 ← team-level workspace
+│   ├── TEAM_STRUCTURE.md              ← squads, roles, collaboration
+│   ├── MEETING_NOTES/                 ← meeting notes
+│   ├── DECISIONS/                     ← decision records (DECISION_001, ...)
+│   └── SHARED_RESOURCES/              ← team-wide strategy & methodology
 │
-├── Idea 2/                            ← FINALIZED · SIH26178 Environmental Intelligence (backup)
-│   ├── README.md                      ← overview, problem, solution, status
-│   ├── 01_PROBLEM_AND_RESEARCH.md     ← problem def, research, existing solutions, gap
-│   ├── 02_TECHNICAL_DESIGN.md         ← stack, hardware, sensors, circuit, network, AI
-│   ├── 03_OPERATIONS_AND_DEMO.md      ← failure modes, testing, demo, cost, differentiation
-│   └── 04_PITCH_AND_QA.md             ← risk analysis + pitch framing + judge Q&A
+├── 01_IDEA_1_MINE_SUBSIDENCE/         ← ACTIVE · SIH26025 (Squad 1)
+│   ├── README.md
+│   ├── 01_PROBLEM_UNDERSTANDING/
+│   ├── 02_RESEARCH/
+│   ├── 03_SOLUTION_DESIGN/
+│   ├── 06_TESTING_VALIDATION/
+│   └── 07_PRESENTATION/
 │
-├── master files/                       ← the decision layer
-│   ├── 01_SIH_Problem_Selection_Framework.md
-│   ├── 02_SIH_2026_Problem_Analysis.md
-│   ├── 03_TOP_2_COMPARISON.md
-│   ├── 04_FINAL_DECISION_MATRIX.md
-│   ├── 05_FINAL_PROBLEM_SELECTION.md
+├── 02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/ ← ACTIVE · SIH26050 (Squad 2)
+│   ├── README.md
+│   ├── 01_PROBLEM_INTELLIGENCE/
+│   ├── 02_DOMAIN_RESEARCH/
+│   ├── 03_ENVIRONMENTAL_ROBUSTNESS/
+│   └── 04_SOLUTION_EXPLORATION/
+│
+├── 03_SHARED_TECH/                    ← shared technology & hardware
 │   ├── HARDWARE_CAPABILITY_BASELINE.md
-│   ├── TECH_STACK_COMPARISON.md
-│   └── ZERO_BUDGET_STRATEGY.md        ← ⚠ read this first (no budget for sensors)
+│   └── ULTRON/                        ← the hardware cluster (circuit, virtual, wokwi)
 │
-├── Top 13 Ideas Analysis/              ← shortlist analysis (PS 01–13)
-│   └── README.md                       ← comparison table + selection criteria
+├── 04_INITIAL_IDEA_RESEARCH/          ← historical research archive
+│   ├── Top_13_Ideas_Analysis/         ← shortlist analysis (PS 01–13)
+│   ├── Rejected_Ideas/                ← previously considered projects
+│   └── Original_Research/             ← 233-PS pool, master analysis, explorer
 │
-├── ULTRON/                             ← our hardware cluster
-│   ├── ULTRON_Circuit_Diagram.jpeg
-│   ├── ULTRON_Circuit_Documentation.md ← full wiring reference
-│   ├── ULTRON_Single_Plug_Power_Plan.md
-│   └── virtual/                        ← MQTT brain/heartbeat/test + Wokwi sketches
-│
-├── All SIH 2026 Problem Statements.md  ← full problem statement dump (233 PS)
-├── SIH 2026 Problem Statements List.md ← searchable list
-└── SIH-2026-Problem-Statement-Explorer.html ← interactive browser
+└── docs/                              ← collaboration docs
+    ├── CONTRIBUTING.md
+    ├── REPO_WORKFLOW.md
+    └── NAMING_CONVENTIONS.md
 ```
 
 ---
@@ -72,7 +80,7 @@ SIH-2026-Round-2/
 - **SIMULATED:** physical sensor transducers (tilt/smoke/PM2.5/etc.) via a high-fidelity software sensor simulator — a drop-in replacement, sensor-agnostic architecture
 - **FREE real signals:** CPU temperature on each Pi (`vcgencmd`), tripwire GPIO as a physical event trigger
 
-Full plan: [`master files/ZERO_BUDGET_STRATEGY.md`](./master%20files/ZERO_BUDGET_STRATEGY.md)
+Full plan: [`00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`](./00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md)
 
 ---
 
@@ -90,7 +98,17 @@ Full plan: [`master files/ZERO_BUDGET_STRATEGY.md`](./master%20files/ZERO_BUDGET
 | AC600 + TL-WN722N Wi-Fi | Wireless uplink |
 | 500GB SSD + 128GB flash | Storage |
 
-Full baseline: [`master files/HARDWARE_CAPABILITY_BASELINE.md`](./master%20files/HARDWARE_CAPABILITY_BASELINE.md)
+Full baseline: [`03_SHARED_TECH/HARDWARE_CAPABILITY_BASELINE.md`](./03_SHARED_TECH/HARDWARE_CAPABILITY_BASELINE.md)
+
+---
+
+## How to Work in This Repo
+
+1. Read [`00_CURRENT_STATUS.md`](./00_CURRENT_STATUS.md) to know where the team is.
+2. Find your project workspace (`01_...` or `02_...`) and its README.
+3. Follow the workflow in [`docs/REPO_WORKFLOW.md`](./docs/REPO_WORKFLOW.md).
+4. Record important decisions in [`00_TEAM_WORKSPACE/DECISIONS/`](./00_TEAM_WORKSPACE/DECISIONS/).
+5. Follow [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md) and [`docs/NAMING_CONVENTIONS.md`](./docs/NAMING_CONVENTIONS.md).
 
 ---
 
@@ -100,11 +118,13 @@ Full baseline: [`master files/HARDWARE_CAPABILITY_BASELINE.md`](./master%20files
 |---|---|
 | Problem statement pool analysis (233 PS) | ✅ |
 | Shortlist analysis (PS 01–13) | ✅ |
-| Final selection (Idea 1 = SIH26025, Idea 2 = SIH26178) | ✅ |
-| Engineering docs for both ideas | ✅ |
+| Project selection (Idea 1 = SIH26025, Idea 2 = SIH26050) | ✅ |
+| Idea 1 engineering docs | ✅ |
+| Idea 2 seed research (from PS 01 analysis) | ✅ |
 | Zero-budget strategy | ✅ |
-| Sensor simulator + MQTT pipeline code | 🔜 next |
-| Mesh network implementation | ⬜ |
-| Edge AI anomaly detection | ⬜ |
-| Dashboard & GIS visualization | ⬜ |
+| Deep research — Idea 1 (problem, domain, approaches) | 🔜 next |
+| Deep research — Idea 2 (problem, domain, robustness, approaches) | 🔜 next |
+| MVP definition for both projects | ⬜ |
+| Implementation | ⬜ |
+| Testing & validation | ⬜ |
 | Demo + pitch deck | ⬜ |

@@ -137,7 +137,7 @@ Be upfront that this is a **decision-support early-indicator**, not a certified 
 
 ## ⚠ ZERO-BUDGET DEMO (READ FIRST)
 
-> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `master files/ZERO_BUDGET_STRATEGY.md`.
+> **No budget for physical sensors.** The demo uses the **software sensor simulator as the PRIMARY transducer layer** — this is a feature, not a fallback. See `../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
 
 **What the judge sees:**
 - **REAL** distributed mesh (Pi 3A+, Pi 3B+, Pi 4, ESP32s on the switch)
@@ -275,7 +275,7 @@ Compare: InSAR/GNSS survey costs are orders of magnitude higher.
 
 ## ⚠ ZERO-BUDGET MODE (READ FIRST)
 
-> **We have no budget to purchase sensors.** See `master files/ZERO_BUDGET_STRATEGY.md`.
+> **We have no budget to purchase sensors.** See `../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
 
 **Zero-budget BOM (what we actually build with):**
 

@@ -2,6 +2,8 @@
 
 > DRDO | Hardware | MedTech / BioTech / HealthTech
 
+> **Provenance:** This is the seed analysis for the active project 2 (SIH26050). Originally part of the Top 13 Ideas Analysis shortlist, it was promoted to this workspace on 2026-09-08 (see [`00_TEAM_WORKSPACE/DECISIONS/DECISION_001_PROJECT_SELECTION.md`](../../00_TEAM_WORKSPACE/DECISIONS/DECISION_001_PROJECT_SELECTION.md)). The shortlist record remains in [`04_INITIAL_IDEA_RESEARCH/Top_13_Ideas_Analysis/`](../../04_INITIAL_IDEA_RESEARCH/Top_13_Ideas_Analysis/).
+
 ---
 
 ## Problem Statement

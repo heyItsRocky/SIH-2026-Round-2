@@ -1,14 +1,16 @@
 # Idea 1 — SIH26025: AI-Enabled Mine Subsidence Monitoring & Early Warning
 
-> SIH 2026 Round 2 · **Finalized** · Ministry of Coal / Coal India Limited
+> SIH 2026 Round 2 · **Active** · Ministry of Coal / Coal India Limited · **Squad 1**
 
 ---
 
 ## Status
 
-**Idea 1 is finalized.** This is the primary submission for SIH 2026 Round 2.
+**Idea 1 is an active project.** This is the primary submission for SIH 2026 Round 2, handled by Squad 1.
 
-> ⚠ **ZERO-BUDGET MODE:** No budget for new sensors. The distributed mesh, edge AI, correlation, dashboard, and alerting are built for real on existing hardware; only the physical transducers are software-simulated. See `master files/ZERO_BUDGET_STRATEGY.md`.
+> ⚠ **ZERO-BUDGET MODE:** No budget for new sensors. The distributed mesh, edge AI, correlation, dashboard, and alerting are built for real on existing hardware; only the physical transducers are software-simulated. See `00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
+
+> 📍 **Current phase:** Planning & Deep Research — focus on `01_PROBLEM_UNDERSTANDING`, `02_RESEARCH`, `03_SOLUTION_DESIGN`.
 
 ---
 
@@ -108,14 +110,19 @@ ESP32 Sensor Nodes (Surface Mesh)          Pi 4B (Edge AI)              Cloud / 
 
 ## Detailed Documentation
 
-This folder contains the full engineering documentation for Idea 1 (SIH26025) in 4 consolidated files:
+This folder contains the full engineering documentation for Idea 1 (SIH26025) in 4 consolidated files, organized by the project lifecycle:
 
-| # | File | Contents |
-|---|---|---|
-| 01 | `01_PROBLEM_AND_RESEARCH.md` | Problem definition, real-world research, existing solutions, gap analysis |
-| 02 | `02_TECHNICAL_DESIGN.md` | Tech stack, hardware mapping, sensor selection, circuit design, node architecture, network, data pipeline, AI/ML strategy, detection/alert logic, system architecture |
-| 03 | `03_OPERATIONS_AND_DEMO.md` | Failure modes, security/reliability, testing/validation, demo plan, deployment/scalability, cost/BOM, differentiation |
-| 04 | `04_PITCH_AND_QA.md` | Pitch framing, judge Q&A, potential attacks |
+| # | Folder | File | Contents |
+|---|---|---|---|
+| 01 | `01_PROBLEM_UNDERSTANDING/` | `01_PROBLEM_AND_RESEARCH.md` | Problem definition, real-world research, existing solutions, gap analysis |
+| 02 | `02_RESEARCH/` | *(new research goes here)* | Domain research, existing solutions, competitive intelligence |
+| 03 | `03_SOLUTION_DESIGN/` | `02_TECHNICAL_DESIGN.md` | Tech stack, hardware mapping, sensor selection, circuit design, node architecture, network, data pipeline, AI/ML strategy, detection/alert logic, system architecture |
+| 04 | `04_HARDWARE/` | *(created when hardware work begins)* | Hardware planning, BOM, procurement |
+| 05 | `05_SOFTWARE_AI/` | *(created when software work begins)* | Firmware, backend, ML, dashboard code |
+| 06 | `06_TESTING_VALIDATION/` | `03_OPERATIONS_AND_DEMO.md` | Failure modes, security/reliability, testing/validation, demo plan, deployment/scalability, cost/BOM, differentiation |
+| 07 | `07_PRESENTATION/` | `04_PITCH_AND_QA.md` + pitch deck | Pitch framing, judge Q&A, potential attacks |
+
+> **Note:** The consolidated docs predate the folder structure and are kept intact. New research should be added as separate files in the numbered folders above.
 
 ---
 
@@ -123,7 +130,9 @@ This folder contains the full engineering documentation for Idea 1 (SIH26025) in
 
 - [x] Problem statement analysis
 - [x] Competitive intelligence report
-- [x] Solution design
+- [x] Solution design (initial)
+- [ ] Deep domain research (in progress — planning phase)
+- [ ] Solution approach comparison & MVP definition
 - [ ] Sensor selection & procurement
 - [ ] Mesh network implementation
 - [ ] Edge AI anomaly detection

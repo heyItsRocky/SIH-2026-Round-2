@@ -96,7 +96,7 @@ Pi 4 (Gateway + Edge AI)
 
 ## 3. What We Add
 
-> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `master files/ZERO_BUDGET_STRATEGY.md`.
+> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `../../../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
 
 **For the hackathon (₹0):** The transducer layer is **software-simulated**. We use the existing mesh + real free signals:
 - **CPU temperature** on each Pi (`vcgencmd measure_temp`) = a REAL environmental temperature stream
@@ -135,7 +135,7 @@ This is the **strongest architectural fit on the entire list** — the platform'
 
 ## ⚠ ZERO-BUDGET MODE (READ FIRST)
 
-> **We have no budget to purchase sensors.** See `master files/ZERO_BUDGET_STRATEGY.md` for the full plan.
+> **We have no budget to purchase sensors.** See `../../../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md` for the full plan.
 
 **What this means for SIH26178:**
 - The **distributed mesh, MQTT pipeline, edge AI, fusion, correlation, dashboard, and alerting are all REAL** (built on existing Pis + ESP32s).

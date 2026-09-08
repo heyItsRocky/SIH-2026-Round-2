@@ -4,6 +4,19 @@
 
 ---
 
+## ⚠ Note on Promoted Ideas
+
+Two problem statements from this shortlist have been **promoted to active projects**:
+
+| PS | Project | Workspace |
+|---|---|---|
+| **PS 01** — SIH26050 (High-Altitude Anti-Drone) | Active project 2 | [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/README.md) — the full PS 01 analysis now lives at [`01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md) |
+| **PS 12** — SIH26025 (Mine Subsidence) | Active project 1 | [`01_IDEA_1_MINE_SUBSIDENCE/`](../../01_IDEA_1_MINE_SUBSIDENCE/README.md) |
+
+The comparison table below remains as the **historical shortlist record**. Active project research lives in the project workspaces.
+
+---
+
 ## 1. Overview
 
 This folder contains the analysis of the top 13 shortlisted SIH 2026 problem statements evaluated against our team's hardware capabilities (SENTINEL 2.0 / ULTRON cluster) and software expertise. Each problem statement is assessed for hardware compatibility, technical complexity, innovation potential, and SIH scoring potential.
@@ -185,18 +198,18 @@ Problems were ranked using these weighted criteria:
 
 ## 5. File Index
 
-| File | Problem Statement |
-|------|-------------------|
-| [PS 01.md](./PS%2001.md) | SIH26050 — High Altitude Anti-Drone System (DRDO) |
-| [PS 02.md](./PS%2002.md) | SIH26157 — SOC Assessment Tool (NTRO) |
-| [PS 03.md](./PS%2003.md) | SIH26153 — Network Attack Forecasting (NTRO) |
-| [PS 04.md](./PS%2004.md) | SIH26155 — Network Security Compliance Auditor (NTRO) |
-| [PS 05.md](./PS%2005.md) | SIH26178 — Environmental Monitoring Network (Qualcomm) |
-| [PS 06.md](./PS%2006.md) | SIH26180 — Smart Farming Assistant (Qualcomm) |
-| [PS 07.md](./PS%2007.md) | SIH26145 — Cyber Threat Detection in Unidirectional IP Traffic (NTRO) |
-| [PS 08.md](./PS%2008.md) | SIH26105 — Cyber Risk Quantification Platform (AICTE) |
-| [PS 09.md](./PS%2009.md) | SIH26039 — Underground Mine Safety (Jharkhand) |
-| [PS 10.md](./PS%2010.md) | SIH26040 — Smart Water Purification (Jharkhand) |
-| [PS 11.md](./PS%2011.md) | SIH26172 — Low Latency Voice Activator for Edge Devices (ISRO) |
-| [PS 12.md](./PS%2012.md) | SIH26025 — Mine Subsidence Monitoring & Early Warning (Ministry of Coal) |
-| [PS 13.md](./PS%2013.md) | SIH26232 — Low-Cost IoT Blockchain Nodes for Farm-to-Fork (MoFPI) |
+| File | Problem Statement | Status |
+|------|-------------------|--------|
+| [PS 01.md](./PS%2001.md) | SIH26050 — High Altitude Anti-Drone System (DRDO) | 🚀 **Promoted to active project** — analysis moved to [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md) |
+| [PS 02.md](./PS%2002.md) | SIH26157 — SOC Assessment Tool (NTRO) | Archived |
+| [PS 03.md](./PS%2003.md) | SIH26153 — Network Attack Forecasting (NTRO) | Archived |
+| [PS 04.md](./PS%2004.md) | SIH26155 — Network Security Compliance Auditor (NTRO) | Archived |
+| [PS 05.md](./PS%2005.md) | SIH26178 — Environmental Monitoring Network (Qualcomm) | Archived (was active, see [`../Rejected_Ideas/SIH26178_Environmental_Intelligence/`](../Rejected_Ideas/SIH26178_Environmental_Intelligence/)) |
+| [PS 06.md](./PS%2006.md) | SIH26180 — Smart Farming Assistant (Qualcomm) | Archived |
+| [PS 07.md](./PS%2007.md) | SIH26145 — Cyber Threat Detection in Unidirectional IP Traffic (NTRO) | Archived |
+| [PS 08.md](./PS%2008.md) | SIH26105 — Cyber Risk Quantification Platform (AICTE) | Archived |
+| [PS 09.md](./PS%2009.md) | SIH26039 — Underground Mine Safety (Jharkhand) | Archived |
+| [PS 10.md](./PS%2010.md) | SIH26040 — Smart Water Purification (Jharkhand) | Archived |
+| [PS 11.md](./PS%2011.md) | SIH26172 — Low Latency Voice Activator for Edge Devices (ISRO) | Archived |
+| [PS 12.md](./PS%2012.md) | SIH26025 — Mine Subsidence Monitoring & Early Warning (Ministry of Coal) | 🚀 **Promoted to active project** — see [`01_IDEA_1_MINE_SUBSIDENCE/`](../../01_IDEA_1_MINE_SUBSIDENCE/README.md) |
+| [PS 13.md](./PS%2013.md) | SIH26232 — Low-Cost IoT Blockchain Nodes for Farm-to-Fork (MoFPI) | Archived |

@@ -1,14 +1,29 @@
 # Idea 2 — SIH26178: AI-Powered Environmental Intelligence Network
 
-> SIH 2026 Round 2 · **Finalized** · Qualcomm Inc
+> SIH 2026 Round 2 · **Archived** · Qualcomm Inc
+
+---
+
+## ⚠ ARCHIVED — Why This Project Was Set Aside
+
+**This project is no longer active.** It was the team's second project until **2026-09-08**, when the team decided to work on **SIH26050 (High-Altitude Anti-Drone System, DRDO)** instead.
+
+**Why:** SIH26050 was the team's #1 ranked idea in the Top 13 analysis (4.4/5) and maps directly to the ULTRON hardware. SIH26178's known risks — high national competition, Qualcomm platform-expectation risk, and scope creep across 3 hazard types — made it the weaker second pick.
+
+**This documentation is preserved as historical research.** Its insights remain reusable:
+- Sensor-agnostic architecture (zero-budget strategy)
+- SACHET/CAP integration insight (NDMA alert bus)
+- Multi-hazard edge-AI node design
+
+**Decision record:** [`00_TEAM_WORKSPACE/DECISIONS/DECISION_001_PROJECT_SELECTION.md`](../../../00_TEAM_WORKSPACE/DECISIONS/DECISION_001_PROJECT_SELECTION.md)
 
 ---
 
 ## Status
 
-**Idea 2 is finalized.** This is the runner-up / backup submission for SIH 2026 Round 2.
+**Archived.** Full engineering documentation preserved below for reference.
 
-> ⚠ **ZERO-BUDGET MODE:** No budget for new sensors. The distributed mesh, edge AI, multi-sensor fusion, dashboard, and alerting are built for real on existing hardware; only the physical transducers are software-simulated. See `master files/ZERO_BUDGET_STRATEGY.md`.
+> ⚠ **ZERO-BUDGET MODE:** No budget for new sensors. The distributed mesh, edge AI, multi-sensor fusion, dashboard, and alerting are built for real on existing hardware; only the physical transducers are software-simulated. See `00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
 
 ---
 

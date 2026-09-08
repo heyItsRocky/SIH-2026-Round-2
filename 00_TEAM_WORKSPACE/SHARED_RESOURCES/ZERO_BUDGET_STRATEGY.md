@@ -48,7 +48,7 @@ Even without dedicated sensors, we get genuine telemetry from existing hardware:
 
 | Signal | Source | How | Use |
 |---|---|---|---|
-| **CPU temperature** | Each Pi | `vcgencmd measure_temp` | Real continuous "temperature" stream (SIH26178) |
+| **CPU temperature** | Each Pi | `vcgencmd measure_temp` | Real continuous "temperature" stream — thermal/health monitoring (SIH26025, SIH26050) |
 | **Tripwire GPIO** | Pi 3A+ GPIO17 / Pi 3B+ GPIO21 → ESP32-WROOM | Physical break detection | Real digital "event"/"crack" trigger (SIH26025) |
 | **ESP32 internal temp** | ESP32 | `temperature_sensor` API | Crude real temperature |
 | **CPU/network load** | Each Pi | `top`, `/proc/loadavg` | Proxy "activity" signal |
@@ -61,7 +61,7 @@ Even without dedicated sensors, we get genuine telemetry from existing hardware:
 A **high-fidelity software sensor simulator** generates realistic streams for any hazard:
 
 - **SIH26025:** tilt, vibration, displacement, crack — with realistic noise, drift, and correlated multi-node deformation events
-- **SIH26178:** smoke, temperature, humidity, PM2.5, water level — with realistic fire/flood signatures
+- **SIH26050:** thermal (cold-soak/heat), vibration, RF signal strength, gimbal/IMU telemetry — with realistic high-altitude environmental signatures
 
 The simulator:
 - Emits MQTT messages in the exact same format as a real sensor node
@@ -99,7 +99,7 @@ The simulator:
 
 ## 8. What This Means for Both Ideas
 
-Both SIH26025 and SIH26178 use the **identical zero-budget architecture**:
+Both SIH26025 and SIH26050 use the **identical zero-budget architecture**:
 - Real distributed mesh (Pis + ESP32s)
 - Real MQTT + edge AI + correlation + dashboard + alerting
 - Simulated transducers via the sensor simulator
@@ -107,4 +107,6 @@ Both SIH26025 and SIH26178 use the **identical zero-budget architecture**:
 
 The differentiators remain unchanged:
 - **SIH26025:** mesh-level deformation correlation (local vs genuine)
-- **SIH26178:** multi-sensor fusion + SACHET/CAP integration
+- **SIH26050:** environmental hardening + adaptive compensation (thermal/RF/gimbal telemetry, health monitoring)
+
+> **Note:** The previous second project (SIH26178 — Environmental Intelligence) used this same architecture. Its research is archived under `04_INITIAL_IDEA_RESEARCH/Rejected_Ideas/SIH26178_Environmental_Intelligence/` and its insights (sensor-agnostic design, SACHET/CAP integration) remain reusable.

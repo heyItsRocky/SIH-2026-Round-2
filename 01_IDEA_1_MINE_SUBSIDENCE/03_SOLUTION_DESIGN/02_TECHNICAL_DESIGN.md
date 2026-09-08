@@ -94,7 +94,7 @@ Pi 4 (Gateway + Edge AI)
 
 ## 3. What We Add
 
-> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `master files/ZERO_BUDGET_STRATEGY.md`.
+> ⚠ **ZERO-BUDGET MODE:** We add **nothing** — no new sensors. See `../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md`.
 
 **For the hackathon (₹0):** The transducer layer is **software-simulated**. We use the existing mesh + real free signals:
 - **Tripwire GPIO** (Pi 3A+ GPIO17 / Pi 3B+ GPIO21 → ESP32-WROOM) = real physical crack/event trigger
@@ -128,7 +128,7 @@ This is the textbook "Physical-to-Digital Loop" — not a hardware costume bolte
 
 ## ⚠ ZERO-BUDGET MODE (READ FIRST)
 
-> **We have no budget to purchase sensors.** See `master files/ZERO_BUDGET_STRATEGY.md` for the full plan.
+> **We have no budget to purchase sensors.** See `../../00_TEAM_WORKSPACE/SHARED_RESOURCES/ZERO_BUDGET_STRATEGY.md` for the full plan.
 
 **What this means for SIH26025:**
 - The **distributed mesh, MQTT pipeline, edge AI, correlation, dashboard, and alerting are all REAL** (built on existing Pis + ESP32s).
