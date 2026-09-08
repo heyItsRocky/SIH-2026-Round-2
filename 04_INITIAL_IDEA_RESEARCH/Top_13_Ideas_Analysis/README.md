@@ -10,7 +10,7 @@ Two problem statements from this shortlist have been **promoted to active projec
 
 | PS | Project | Workspace |
 |---|---|---|
-| **PS 01** — SIH26050 (High-Altitude Anti-Drone) | Active project 2 | [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/README.md) — the full PS 01 analysis now lives at [`01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md) |
+| **PS 01** — SIH26050 (High-Altitude Anti-Drone) | Active project 2 | [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/README.md) — the full PS 01 analysis now lives at [`PREVIOUS_ANALYSIS/PS01_SIH26050_ANALYSIS.md`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/PREVIOUS_ANALYSIS/PS01_SIH26050_ANALYSIS.md) |
 | **PS 12** — SIH26025 (Mine Subsidence) | Active project 1 | [`01_IDEA_1_MINE_SUBSIDENCE/`](../../01_IDEA_1_MINE_SUBSIDENCE/README.md) |
 
 The comparison table below remains as the **historical shortlist record**. Active project research lives in the project workspaces.
@@ -200,7 +200,7 @@ Problems were ranked using these weighted criteria:
 
 | File | Problem Statement | Status |
 |------|-------------------|--------|
-| [PS 01.md](./PS%2001.md) | SIH26050 — High Altitude Anti-Drone System (DRDO) | 🚀 **Promoted to active project** — analysis moved to [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md) |
+| [PS 01.md](./PS%2001.md) | SIH26050 — High Altitude Anti-Drone System (DRDO) | 🚀 **Promoted to active project** — analysis moved to [`02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/PREVIOUS_ANALYSIS/`](../../02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/PREVIOUS_ANALYSIS/PS01_SIH26050_ANALYSIS.md) |
 | [PS 02.md](./PS%2002.md) | SIH26157 — SOC Assessment Tool (NTRO) | Archived |
 | [PS 03.md](./PS%2003.md) | SIH26153 — Network Attack Forecasting (NTRO) | Archived |
 | [PS 04.md](./PS%2004.md) | SIH26155 — Network Security Compliance Auditor (NTRO) | Archived |

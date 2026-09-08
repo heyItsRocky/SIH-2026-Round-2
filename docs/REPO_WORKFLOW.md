@@ -21,7 +21,7 @@ Testing
 ## Where Each Stage Lives
 
 ### 1. Research
-- **Where:** your project's research folders — `01_IDEA_1_MINE_SUBSIDENCE/WORKSPACE/` or `02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/02_DOMAIN_RESEARCH/` (and `03_ENVIRONMENTAL_ROBUSTNESS/`, `04_SOLUTION_EXPLORATION/` for Idea 2).
+- **Where:** your project's research folders — `01_IDEA_1_MINE_SUBSIDENCE/WORKSPACE/` or `02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/WORKSPACE/`.
 - **What:** domain research, existing solutions, technical papers, competitive intelligence.
 - **Rule:** document sources. Don't delete research — archive it.
 
@@ -36,22 +36,22 @@ Testing
 - **Rule:** record decisions when they're made. Never lose track of *why*.
 
 ### 4. Documentation
-- **Where:** the project's design folders — `01_.../WORKSPACE/`, `02_.../05_SYSTEM_ARCHITECTURE/` (once created).
+- **Where:** the project's design folders — `01_.../WORKSPACE/`, `02_.../WORKSPACE/`.
 - **What:** architecture, technical design, hardware plans, data pipelines.
 - **Rule:** documentation reflects decisions; update it when decisions change.
 
 ### 5. Implementation
-- **Where:** the project's build folders — `01_.../WORKSPACE/` (subfolders created by the squad when build begins), `02_.../06_PROTOTYPE/` (created when build begins). Shared code goes in `03_SHARED_TECH/`.
+- **Where:** the project's build folders — `01_.../WORKSPACE/`, `02_.../WORKSPACE/` (subfolders created by each squad when build begins). Shared code goes in `03_SHARED_TECH/`.
 - **What:** firmware, backend, ML, dashboards, hardware assembly.
 - **Rule:** code lives with its project; shared infrastructure lives in `03_SHARED_TECH/`.
 
 ### 6. Testing
-- **Where:** `01_.../WORKSPACE/`, `02_.../07_TESTING_VALIDATION/`.
+- **Where:** `01_.../WORKSPACE/`, `02_.../WORKSPACE/`.
 - **What:** test plans, validation results, failure-mode analysis, demo scripts.
 - **Rule:** record what was tested and what passed/failed.
 
 ### 7. Pitch
-- **Where:** `01_.../WORKSPACE/`, `02_.../08_PRESENTATION/`.
+- **Where:** `01_.../WORKSPACE/`, `02_.../WORKSPACE/`.
 - **What:** pitch decks, demo scripts, judge Q&A prep.
 - **Rule:** the pitch must trace back to documented research and decisions.
 

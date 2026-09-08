@@ -37,10 +37,8 @@ Deeply understand both problem statements, research the domains, explore multipl
 - `PREVIOUS_ANALYSIS` — archived earlier-phase work (frozen reference, read-only)
 
 ### Idea 2 (SIH26050) — active research areas
-- `01_PROBLEM_INTELLIGENCE` — problem statement deep-dive (seed analysis in place)
-- `02_DOMAIN_RESEARCH` — anti-drone domain, high-altitude environment, existing systems
-- `03_ENVIRONMENTAL_ROBUSTNESS` — cold/low-pressure/dust/snow/wind effects on electronics, batteries, sensors, mechanics
-- `04_SOLUTION_EXPLORATION` — multiple solution approaches, comparison, MVP definition
+- `WORKSPACE` — squad's blank canvas: anti-drone domain, high-altitude environment, environmental robustness, solution approaches, MVP definition (organized freely by Squad 2)
+- `PREVIOUS_ANALYSIS` — archived earlier-phase work (frozen reference, read-only)
 
 ---
 

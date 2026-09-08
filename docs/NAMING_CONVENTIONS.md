@@ -7,7 +7,7 @@
 - **Top-level areas** are numbered by lifecycle: `00_` (team/status), `01_`/`02_` (active projects), `03_` (shared tech), `04_` (archive), then `docs/`.
 - **Project subfolders** are numbered by project lifecycle stage:
   - Idea 1: `PREVIOUS_ANALYSIS` (archived earlier-phase work, frozen) + `WORKSPACE` (squad's active area — organized freely by the squad)
-  - Idea 2: `01_PROBLEM_INTELLIGENCE` → `02_DOMAIN_RESEARCH` → `03_ENVIRONMENTAL_ROBUSTNESS` → `04_SOLUTION_EXPLORATION` → `05_SYSTEM_ARCHITECTURE` → `06_PROTOTYPE` → `07_TESTING_VALIDATION` → `08_PRESENTATION`
+  - Idea 2: `PREVIOUS_ANALYSIS` (archived earlier-phase work, frozen) + `WORKSPACE` (squad's active area — organized freely by the squad)
 - Use `UPPER_SNAKE_CASE` for numbered folders (`01_PROBLEM_UNDERSTANDING`).
 - Use `Title_Case` for named folders (`Top_13_Ideas_Analysis`, `Rejected_Ideas`).
 - **No spaces in folder names** (use `_`). Spaces break tooling and URLs.

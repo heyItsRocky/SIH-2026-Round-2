@@ -46,11 +46,9 @@ SIH-2026-Round-2/
 │   └── WORKSPACE/                     ← squad's blank canvas (research lives here)
 │
 ├── 02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/ ← ACTIVE · SIH26050 (Squad 2)
-│   ├── README.md
-│   ├── 01_PROBLEM_INTELLIGENCE/
-│   ├── 02_DOMAIN_RESEARCH/
-│   ├── 03_ENVIRONMENTAL_ROBUSTNESS/
-│   └── 04_SOLUTION_EXPLORATION/
+│   ├── README.md                      ← squad guide
+│   ├── PREVIOUS_ANALYSIS/             ← archived earlier-phase work (frozen)
+│   └── WORKSPACE/                     ← squad's blank canvas (research lives here)
 │
 ├── 03_SHARED_TECH/                    ← shared technology & hardware
 │   ├── HARDWARE_CAPABILITY_BASELINE.md

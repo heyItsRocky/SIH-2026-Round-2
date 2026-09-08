@@ -97,13 +97,15 @@ The simulator:
 
 ---
 
-## 8. What This Means for Both Ideas
+## 8. What This Means for the Projects
 
-Both SIH26025 and SIH26050 use the **identical zero-budget architecture**:
+**SIH26025 (Squad 1):** zero-budget architecture (Squad 1 budget TBD):
 - Real distributed mesh (Pis + ESP32s)
 - Real MQTT + edge AI + correlation + dashboard + alerting
 - Simulated transducers via the sensor simulator
 - Real free signals (CPU temp, tripwire GPIO) where they add credibility
+
+**SIH26050 (Squad 2):** ₹3,000 budget allocated (2026-09-08) — the zero-budget architecture above remains the baseline; the budget covers targeted purchases (sensors, gimbal parts, hardening materials) where they add the most credibility.
 
 The differentiators remain unchanged:
 - **SIH26025:** mesh-level deformation correlation (local vs genuine)

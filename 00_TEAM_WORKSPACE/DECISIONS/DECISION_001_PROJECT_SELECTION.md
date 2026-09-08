@@ -38,4 +38,4 @@ The team had previously finalized SIH26025 (Idea 1) and SIH26178 (Idea 2) as the
 - SIH26178 documentation is preserved as historical research in `04_INITIAL_IDEA_RESEARCH/Rejected_Ideas/` — not deleted.
 - The zero-budget strategy now applies to both active projects (sensor simulation where transducers are unavailable).
 - Follow-up: deep research for SIH26050 (domain, environmental robustness, solution exploration) is now the priority for Squad 2.
-- Follow-up: hardware gap analysis for SIH26050 (USB camera, gimbal, IMU, thermocouples, IP65 enclosure) — see `02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/01_PROBLEM_INTELLIGENCE/PS01_SIH26050_ANALYSIS.md`.
+- Follow-up: hardware gap analysis for SIH26050 (USB camera, gimbal, IMU, thermocouples, IP65 enclosure) — see `02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/PREVIOUS_ANALYSIS/PS01_SIH26050_ANALYSIS.md`.
