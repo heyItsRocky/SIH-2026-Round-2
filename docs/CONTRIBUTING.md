@@ -6,7 +6,7 @@
 
 1. **Don't delete important research.** If something is no longer relevant, move it to `04_INITIAL_IDEA_RESEARCH/` instead of deleting it. Research is the team's memory.
 2. **Keep research sources documented.** When you add research, note where the information came from (link, paper, source name). Unverifiable claims hurt us in front of judges.
-3. **Use meaningful filenames.** `02_RESEARCH/thermal_management_papers.md` beats `notes2.md`. Follow [`NAMING_CONVENTIONS.md`](./NAMING_CONVENTIONS.md).
+3. **Use meaningful filenames.** `WORKSPACE/thermal_management_papers.md` beats `notes2.md`. Follow [`NAMING_CONVENTIONS.md`](./NAMING_CONVENTIONS.md).
 4. **Avoid random duplicate files.** Before creating a file, check if the content already exists somewhere. Link to it instead of copying it.
 5. **Discuss major architecture changes.** If a change affects both projects or the shared tech (`03_SHARED_TECH/`), discuss it with the team first.
 6. **Record important decisions.** Any decision that shapes a project goes in `00_TEAM_WORKSPACE/DECISIONS/` as `DECISION_XXX_...md`. See the template there.

@@ -28,24 +28,21 @@ Surface subsidence caused by underground coal mining poses significant risks to 
 
 ```
 01_IDEA_1_MINE_SUBSIDENCE/
-├── README.md                    ← you are here (this guide)
-├── 01_PROBLEM_UNDERSTANDING/    ← problem definition, stakeholders, requirements
-├── 02_RESEARCH/                 ← YOUR research playground
-│   └── OLD_RESEARCH/            ← pre-restructure docs (frozen reference)
-├── 03_SOLUTION_DESIGN/          ← architecture, tech stack, sensor selection
-├── 04_HARDWARE/                 ← created when hardware work begins
-├── 05_SOFTWARE_AI/              ← created when software work begins
-├── 06_TESTING_VALIDATION/       ← test plans, demo plan
-└── 07_PRESENTATION/             ← pitch deck + Q&A prep
+├── README.md              ← you are here (this guide)
+├── PREVIOUS_ANALYSIS/     ← everything from the earlier phase (frozen reference)
+└── WORKSPACE/             ← YOUR blank canvas — starts empty, you shape it
 ```
 
-**The numbered folders are a map, not a cage.** They exist so the team can find things. If your research naturally organizes differently, organize it differently — just keep the READMEs updated so the next person can navigate.
+That's it. Two folders:
+
+- **`PREVIOUS_ANALYSIS/`** — the team's earlier work, archived as reference. Read it, then move on.
+- **`WORKSPACE/`** — **yours.** It starts empty on purpose. Organize it however your research needs — add files, create subfolders, restructure as you go. There is no prescribed layout.
 
 ---
 
-## The Old Research (read it, then challenge it)
+## The Previous Analysis (read it, then challenge it)
 
-Everything the team produced before this restructure lives in **`02_RESEARCH/OLD_RESEARCH/`**:
+Everything the team produced before this restructure lives in **`PREVIOUS_ANALYSIS/`**:
 
 | File | What it covers |
 |---|---|
@@ -53,12 +50,13 @@ Everything the team produced before this restructure lives in **`02_RESEARCH/OLD
 | `02_TECHNICAL_DESIGN.md` | Tech stack, hardware mapping, sensor selection, node architecture, network, data pipeline, AI/ML strategy |
 | `03_OPERATIONS_AND_DEMO.md` | Failure modes, security/reliability, testing, demo plan, cost/BOM |
 | `04_PITCH_AND_QA.md` | Pitch framing, judge Q&A, potential attacks |
+| `SIH26025-...pptx` | Pitch deck from the earlier phase |
 
 **How to treat it:**
 
 - ✅ **Use it as a head start** — it contains real research and hard-won context (e.g., the mesh-correlation constraint, the DGMS accident evidence).
-- ✅ **Verify and deepen it** — every claim in there is fair game to re-check, extend, or improve.
-- ✅ **Challenge it** — if you find something wrong or outdated, say so. Record your correction in a new research file.
+- ✅ **Verify and deepen it** — every claim in there is fair game to re-check, extend, or improve in your workspace.
+- ✅ **Challenge it** — if you find something wrong or outdated, say so. Record your correction in `WORKSPACE/`.
 - ❌ **Don't delete or rewrite it** — it's the team's history and the basis for the decision record.
 
 ---
@@ -96,10 +94,10 @@ This is **your** research — these are launch questions, not a checklist. Go wh
 
 ## How to Work
 
-1. **Research** — explore freely. Save what you find in `02_RESEARCH/` as new files (one topic per file, meaningful names).
+1. **Research** — explore freely. Save what you find in `WORKSPACE/` as new files (one topic per file, meaningful names).
 2. **Discuss** — bring findings back to the squad. Debate. The best idea wins, not the loudest voice.
 3. **Decide** — when the squad agrees, record the decision in [`../00_TEAM_WORKSPACE/DECISIONS/`](../00_TEAM_WORKSPACE/DECISIONS/) (follow the template in `DECISION_001_PROJECT_SELECTION.md`).
-4. **Document** — update the relevant READMEs so the workspace stays navigable.
+4. **Document** — keep `WORKSPACE/` navigable so the next person can find things.
 
 **Ground rules (light, but firm):**
 
@@ -139,4 +137,4 @@ When you can answer all five with evidence, you're ready for the design phase.
 
 ---
 
-**Go explore. This is your workspace now.**
+**Go explore. `WORKSPACE/` is yours.**

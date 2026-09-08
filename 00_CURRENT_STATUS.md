@@ -33,9 +33,8 @@ We are currently at **UNDERSTAND → RESEARCH → EXPLORE**.
 Deeply understand both problem statements, research the domains, explore multiple solution approaches, and define technically feasible and innovative project directions — **before** locking architecture or starting implementation.
 
 ### Idea 1 (SIH26025) — active research areas
-- `01_PROBLEM_UNDERSTANDING` — problem definition, stakeholders, constraints
-- `02_RESEARCH` — domain research, existing solutions, gap analysis
-- `03_SOLUTION_DESIGN` — solution approaches, comparison, MVP definition
+- `WORKSPACE` — squad's blank canvas: problem definition, domain research, existing solutions, gap analysis, solution approaches, MVP definition (organized freely by Squad 1)
+- `PREVIOUS_ANALYSIS` — archived earlier-phase work (frozen reference, read-only)
 
 ### Idea 2 (SIH26050) — active research areas
 - `01_PROBLEM_INTELLIGENCE` — problem statement deep-dive (seed analysis in place)

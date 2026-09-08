@@ -41,12 +41,9 @@ SIH-2026-Round-2/
 │   └── SHARED_RESOURCES/              ← team-wide strategy & methodology
 │
 ├── 01_IDEA_1_MINE_SUBSIDENCE/         ← ACTIVE · SIH26025 (Squad 1)
-│   ├── README.md
-│   ├── 01_PROBLEM_UNDERSTANDING/
-│   ├── 02_RESEARCH/
-│   ├── 03_SOLUTION_DESIGN/
-│   ├── 06_TESTING_VALIDATION/
-│   └── 07_PRESENTATION/
+│   ├── README.md                      ← squad guide
+│   ├── PREVIOUS_ANALYSIS/             ← archived earlier-phase work (frozen)
+│   └── WORKSPACE/                     ← squad's blank canvas (research lives here)
 │
 ├── 02_IDEA_2_HIGH_ALTITUDE_ANTI_DRONE/ ← ACTIVE · SIH26050 (Squad 2)
 │   ├── README.md
